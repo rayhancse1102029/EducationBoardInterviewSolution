@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using EducationBoardInterviewSolution.Areas.Auth.Models;
 using EducationBoardInterviewSolution.Data.Entity;
 using EducationBoardInterviewSolution.Data.Entity.Auth;
+using EducationBoardInterviewSolution.Data.Entity.EducationBoard;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace EducationBoardInterviewSolution.Data
@@ -31,7 +32,13 @@ namespace EducationBoardInterviewSolution.Data
         public DbSet<UserLogHistory> UserLogHistories { get; set; }
         #endregion
 
-       
+        #region Education Board
+        public DbSet<Division> Divisions { get; set; }
+        public DbSet<District> Districts { get; set; }
+        public DbSet<School> Schools { get; set; }
+        public DbSet<Student> Students { get; set; }
+        public DbSet<Dept> Depts { get; set; }
+        #endregion
 
         #region Settings Configs
         public override int SaveChanges()
