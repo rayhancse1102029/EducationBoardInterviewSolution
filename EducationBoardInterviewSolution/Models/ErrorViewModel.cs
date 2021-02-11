@@ -1,6 +1,6 @@
 using System;
 
-namespace EducationBoardInterviewSolution.Models
+namespace DynamicSideBar.Models
 {
     public class ErrorViewModel
     {
