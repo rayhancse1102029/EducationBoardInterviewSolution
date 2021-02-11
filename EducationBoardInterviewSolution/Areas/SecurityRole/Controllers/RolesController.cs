@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using DynamicSideBar.Data;
-using DynamicSideBar.Data.Entity;
-using DynamicSideBar.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Data;
+using EducationBoardInterviewSolution.Data.Entity;
 
-namespace DynamicSideBar.Areas.SecurityRole.Controllers
+namespace EducationBoardInterviewSolution.Areas.SecurityRole.Controllers
 {
 
     [Area("SecurityRole")]

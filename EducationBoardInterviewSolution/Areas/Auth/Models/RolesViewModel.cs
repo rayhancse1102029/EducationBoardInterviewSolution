@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DynamicSideBar.Areas.Auth.Models
+namespace EducationBoardInterviewSolution.Areas.Auth.Models
 {
     public class RolesViewModel
     {

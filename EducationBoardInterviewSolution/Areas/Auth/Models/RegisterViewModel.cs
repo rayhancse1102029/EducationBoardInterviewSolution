@@ -6,10 +6,10 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
-using DynamicSideBar.Data.Entity;
+using EducationBoardInterviewSolution.Data.Entity;
 using Microsoft.AspNetCore.Http;
 
-namespace DynamicSideBar.Areas.Auth.Models
+namespace EducationBoardInterviewSolution.Areas.Auth.Models
 {
     public class RegisterViewModel
     {

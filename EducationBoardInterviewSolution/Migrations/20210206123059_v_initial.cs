@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace DynamicSideBar.Migrations
+namespace EducationBoardInterviewSolution.Migrations
 {
     public partial class v_initial : Migration
     {

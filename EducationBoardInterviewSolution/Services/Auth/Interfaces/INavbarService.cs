@@ -1,11 +1,11 @@
-﻿using DynamicSideBar.Areas.Auth.Models;
-using DynamicSideBar.Data.Entity.Auth;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EducationBoardInterviewSolution.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Data.Entity.Auth;
 
-namespace DynamicSideBar.Services.Auth.Interfaces
+namespace EducationBoardInterviewSolution.Services.Auth.Interfaces
 {
     public interface INavbarService
     {

@@ -16,14 +16,14 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json.Serialization;
-using DynamicSideBar.Data;
-using DynamicSideBar.Data.Entity;
-using DynamicSideBar.Services.AuthServices;
-using DynamicSideBar.Sevices.AuthServices.Interfaces;
-using DynamicSideBar.Services.Auth.Interfaces;
-using DynamicSideBar.Services.Auth;
+using EducationBoardInterviewSolution.Data;
+using EducationBoardInterviewSolution.Data.Entity;
+using EducationBoardInterviewSolution.Services.Auth;
+using EducationBoardInterviewSolution.Services.Auth.Interfaces;
+using EducationBoardInterviewSolution.Services.AuthServices;
+using EducationBoardInterviewSolution.Sevices.AuthServices.Interfaces;
 
-namespace DynamicSideBar
+namespace EducationBoardInterviewSolution
 {
     public class Startup
     {

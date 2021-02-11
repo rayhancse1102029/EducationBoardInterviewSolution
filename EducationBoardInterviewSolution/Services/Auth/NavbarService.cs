@@ -1,14 +1,14 @@
-﻿using DynamicSideBar.Areas.Auth.Models;
-using DynamicSideBar.Data;
-using DynamicSideBar.Data.Entity.Auth;
-using DynamicSideBar.Services.Auth.Interfaces;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EducationBoardInterviewSolution.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Data;
+using EducationBoardInterviewSolution.Data.Entity.Auth;
+using EducationBoardInterviewSolution.Services.Auth.Interfaces;
 
-namespace DynamicSideBar.Services.Auth
+namespace EducationBoardInterviewSolution.Services.Auth
 {
     public class NavbarService : INavbarService
     {

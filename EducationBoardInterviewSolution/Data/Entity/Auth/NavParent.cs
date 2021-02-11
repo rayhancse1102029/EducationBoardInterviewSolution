@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DynamicSideBar.Data.Entity.Auth
+namespace EducationBoardInterviewSolution.Data.Entity.Auth
 {
     public class NavParent : Base
     {

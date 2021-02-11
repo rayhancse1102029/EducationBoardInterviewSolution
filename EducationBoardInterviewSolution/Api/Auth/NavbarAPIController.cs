@@ -1,13 +1,13 @@
-﻿using DynamicSideBar.Data.Entity.Auth;
-using DynamicSideBar.Services.Auth.Interfaces;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EducationBoardInterviewSolution.Data.Entity.Auth;
+using EducationBoardInterviewSolution.Services.Auth.Interfaces;
 
-namespace DynamicSideBar.Api.Auth
+namespace EducationBoardInterviewSolution.Api.Auth
 {   
     [Route("api/[controller]/[Action]")]
     [ApiController]

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 
-namespace DynamicSideBar.Data.Entity
+namespace EducationBoardInterviewSolution.Data.Entity
 {
     public class ApplicationUser : IdentityUser
     {

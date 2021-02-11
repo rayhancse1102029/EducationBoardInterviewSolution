@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using DynamicSideBar.Services.Helper.Interfaces;
+using EducationBoardInterviewSolution.Services.Helper.Interfaces;
 
-namespace DynamicSideBar.Services.Helper
+namespace EducationBoardInterviewSolution.Services.Helper
 {
     public class FileSaveService : IFileSaveService
     {

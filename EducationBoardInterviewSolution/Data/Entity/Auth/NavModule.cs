@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DynamicSideBar.Data.Entity.Auth
+namespace EducationBoardInterviewSolution.Data.Entity.Auth
 {
     public class NavModule:Base
     {

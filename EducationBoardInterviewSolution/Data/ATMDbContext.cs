@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using DynamicSideBar.Data.Entity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
-using DynamicSideBar.Areas.Auth.Models;
-using DynamicSideBar.Data.Entity.Auth;
+using EducationBoardInterviewSolution.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Data.Entity;
+using EducationBoardInterviewSolution.Data.Entity.Auth;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
-namespace DynamicSideBar.Data
+namespace EducationBoardInterviewSolution.Data
 {
     public class ATMDbContext : IdentityDbContext<ApplicationUser>
     {

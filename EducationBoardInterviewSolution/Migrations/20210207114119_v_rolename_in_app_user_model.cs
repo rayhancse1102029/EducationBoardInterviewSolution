@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace DynamicSideBar.Migrations
+namespace EducationBoardInterviewSolution.Migrations
 {
     public partial class v_rolename_in_app_user_model : Migration
     {

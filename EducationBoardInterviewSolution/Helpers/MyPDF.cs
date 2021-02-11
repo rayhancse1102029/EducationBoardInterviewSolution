@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using DinkToPdf;
 using DinkToPdf.Contracts;
 
-namespace DynamicSideBar.Helpers
+namespace EducationBoardInterviewSolution.Helpers
 {
     public class MyPDF
     {

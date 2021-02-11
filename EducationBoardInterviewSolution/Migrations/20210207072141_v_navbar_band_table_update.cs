@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace DynamicSideBar.Migrations
+namespace EducationBoardInterviewSolution.Migrations
 {
     public partial class v_navbar_band_table_update : Migration
     {

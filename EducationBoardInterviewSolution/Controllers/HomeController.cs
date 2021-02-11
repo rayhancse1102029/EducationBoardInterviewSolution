@@ -1,13 +1,13 @@
-﻿using DynamicSideBar.Models;
-using Microsoft.AspNetCore.Authorization;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using EducationBoardInterviewSolution.Models;
 
-namespace DynamicSideBar.Controllers
+namespace EducationBoardInterviewSolution.Controllers
 {
     [Authorize]
     public class HomeController : Controller

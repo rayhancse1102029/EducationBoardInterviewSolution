@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DynamicSideBar.Areas.User.Models
+namespace EducationBoardInterviewSolution.Areas.User.Models
 {
     public class UserViewModel
     {

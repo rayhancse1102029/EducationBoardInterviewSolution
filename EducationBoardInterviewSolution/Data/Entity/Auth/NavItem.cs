@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace DynamicSideBar.Data.Entity.Auth
+namespace EducationBoardInterviewSolution.Data.Entity.Auth
 {
     public class NavItem:Base
     {

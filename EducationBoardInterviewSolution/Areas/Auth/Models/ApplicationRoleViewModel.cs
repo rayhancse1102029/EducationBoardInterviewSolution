@@ -1,10 +1,10 @@
-﻿using DynamicSideBar.Data.Entity.Auth;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EducationBoardInterviewSolution.Data.Entity.Auth;
 
-namespace DynamicSideBar.Areas.Auth.Models
+namespace EducationBoardInterviewSolution.Areas.Auth.Models
 {
     public class ApplicationRoleViewModel
     {

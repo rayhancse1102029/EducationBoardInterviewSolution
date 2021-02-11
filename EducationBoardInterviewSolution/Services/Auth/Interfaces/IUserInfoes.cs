@@ -1,11 +1,11 @@
-﻿using DynamicSideBar.Areas.Auth.Models;
-using DynamicSideBar.Data.Entity;
-using DynamicSideBar.Data.Entity.Auth;
+﻿using EducationBoardInterviewSolution.Data.Entity.Auth;
 using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using EducationBoardInterviewSolution.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Data.Entity;
 
-namespace DynamicSideBar.Sevices.AuthServices.Interfaces
+namespace EducationBoardInterviewSolution.Sevices.AuthServices.Interfaces
 {
     public interface IUserInfoes
     {

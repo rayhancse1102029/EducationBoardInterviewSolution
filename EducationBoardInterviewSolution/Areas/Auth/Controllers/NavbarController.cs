@@ -1,16 +1,16 @@
-﻿using DynamicSideBar.Areas.Auth.Models;
-using DynamicSideBar.Data.Entity;
-using DynamicSideBar.Data.Entity.Auth;
-using DynamicSideBar.Services.Auth.Interfaces;
-using DynamicSideBar.Sevices.AuthServices.Interfaces;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EducationBoardInterviewSolution.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Data.Entity;
+using EducationBoardInterviewSolution.Data.Entity.Auth;
+using EducationBoardInterviewSolution.Services.Auth.Interfaces;
+using EducationBoardInterviewSolution.Sevices.AuthServices.Interfaces;
 
-namespace DynamicSideBar.Areas.Auth.Controllers
+namespace EducationBoardInterviewSolution.Areas.Auth.Controllers
 {
     [Area("Auth")]
     public class NavbarController : Controller

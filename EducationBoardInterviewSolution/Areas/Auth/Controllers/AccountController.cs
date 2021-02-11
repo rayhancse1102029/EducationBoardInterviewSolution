@@ -4,17 +4,17 @@ using System.Linq;
 using System.Security.Claims;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
-using DynamicSideBar.Data;
-using DynamicSideBar.Data.Entity;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using DynamicSideBar.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Data;
+using EducationBoardInterviewSolution.Data.Entity;
 
-namespace DynamicSideBar.Areas.Auth.Controllers
+namespace EducationBoardInterviewSolution.Areas.Auth.Controllers
 {
 
     [Authorize]

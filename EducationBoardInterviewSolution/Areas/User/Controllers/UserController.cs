@@ -1,17 +1,17 @@
-﻿using DynamicSideBar.Areas.Auth.Models;
-using DynamicSideBar.Areas.User.Models;
-using DynamicSideBar.Data;
-using DynamicSideBar.Data.Entity;
-using DynamicSideBar.Services.Helper.Interfaces;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using EducationBoardInterviewSolution.Areas.Auth.Models;
+using EducationBoardInterviewSolution.Areas.User.Models;
+using EducationBoardInterviewSolution.Data;
+using EducationBoardInterviewSolution.Data.Entity;
+using EducationBoardInterviewSolution.Services.Helper.Interfaces;
 
-namespace DynamicSideBar.Areas.User.Controllers
+namespace EducationBoardInterviewSolution.Areas.User.Controllers
 {
     [Area("User")]
     public class UserController : Controller

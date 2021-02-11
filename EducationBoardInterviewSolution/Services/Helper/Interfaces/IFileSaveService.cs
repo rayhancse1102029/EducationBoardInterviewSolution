@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DynamicSideBar.Services.Helper.Interfaces
+namespace EducationBoardInterviewSolution.Services.Helper.Interfaces
 {
     public interface IFileSaveService
     {
